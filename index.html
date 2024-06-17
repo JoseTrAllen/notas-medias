@@ -3,10 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,200,0,0" />
   <link rel="stylesheet" href="style.css">
   <title>Calculadora media de notas</title>
 </head>
 <body>
+  <section class="input-section">
+    <div class="flex-column">
+      <div class="form-container">
+        <form action="#" class="form">
+          <fieldset class="input-fieldset">
+            <legend>
+              <span class="material-symbols-outlined">school</span>
+            </legend>
+              <label for="name">Add name & surname</label>
+              <input id="name" type="text">
+              <label for="notes">Add notes</label>
+              <input id="notes" type="text" placeholder="Add comma to separate numbers">
+              <button id="add-button">Add</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+    <div class="form-container">
+      <form action="#" class="form">
+        <fieldset class="input-fieldset">
+          <legend>
+            <span class="material-symbols-outlined">school</span>
+          </legend>
+            <p id="paragraph-name">Name:</p>
+            <p id="paragraph-notes">Notes:</p>
+            <p id="paragraph-average">Grade Average:</p>
+        </fieldset>
+      </form>
+    </div>
+  </section>
   <script type="module" src="main.js"></script>
 </body>
 </html>

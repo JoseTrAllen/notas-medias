@@ -1,0 +1,123 @@
+
+/* .first-color { 
+	background: #233142; AZUL OSCURO 
+}
+	
+.second-color { 
+	background: #455d7a; AZUL CLARO
+}
+
+.third-color { 
+	background: #f95959; ROJO
+}
+
+.fourth-color { 
+	background: #e3e3e3; GRISACEO
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #455d7a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 16px;
+  border: 2px solid #e3e3e3;
+}
+
+.form-container {
+  background-color: #f95959;
+  border-radius: 12px;
+  display: flex
+}
+
+.material-symbols-outlined {
+  font-size: 3rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  padding: 0px 20px 20px 20px;
+}
+
+.input-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#add-name, #add-note  {
+  cursor: pointer;
+}
+
+#add-name:hover, #add-note:hover {
+  color: rgb(0, 255, 0);
+  transform: scale(1.250);
+}
+
+.input-fieldset {
+  border: 2px solid white;
+}
+
+.input-fieldset{
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px;
+  border-radius: 8px;
+  color: white;
+}
+
+.input-fieldset input {
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  padding: 3px 5px;
+}
+
+.icon-legend, span {
+  text-align: center;
+}
+
+#add-button {
+  width: 100px;
+  margin: auto;
+  margin-top: 5px;
+  border: none;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  cursor: pointer;
+  color: red;
+}
+
+#add-button:hover {
+  transform: scale(1.100);
+}
+
+
+
