@@ -25,7 +25,9 @@ const profileName = (total) => {
     averageText.style.color = "rgb(0, 255, 0)"
   } else {
     averageText.style.color = "red"
-  }
+  };
+  inputStudent.value = "";
+  inputNotes.value = "";
 }
 
 addbutton.addEventListener("click",() => {
@@ -34,7 +36,7 @@ addbutton.addEventListener("click",() => {
   } else {
     const notesArray = createNotesArray(inputNotes.value)
     const totalText = averageGrade(notesArray);
-    profileName(totalText)
+    profileName(totalText);
   };
 })
 
